@@ -1,0 +1,44 @@
+h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(44, 108, 192);
+    border-radius: 10px;
+    padding: 70px;
+    color: rgb(73, 73, 105);
+    margin: 10px;
+    font-weight: bold;
+    height: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar2 {
+    flex-grow: 3;
+}
+
+.sidebar1 {
+    flex-grow: 1;
+}
